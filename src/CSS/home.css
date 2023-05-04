@@ -1,0 +1,101 @@
+.container {
+    margin: 0;
+}
+
+.heading {
+    text-align: center;
+}
+
+.sub-heading {
+    font-weight: 400;
+    font-size: 1.3rem;
+    font-family: "Roboto", "Lato", Arial, sans-serif;
+}
+
+.section-white {
+    background-color: #fff;
+    padding: 5rem 6rem;
+}
+
+.section-gray {
+    background-color: #f4f4f4;
+    padding: 5rem 6rem;
+}
+
+.home-content {
+    margin: 1rem 5rem;
+}
+
+.blink {
+    animation: blink-animation 0.75s steps(5, start) infinite;
+}
+
+.section .title {
+    font-size: 1.75rem;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+.section .content {
+    margin: 1rem 0 1rem 2rem;
+    font-size: 1.25rem;
+}
+
+.block-right {
+    margin-left: 1rem;
+    display: block;
+    position: relative;
+    bottom: 3rem;
+}
+
+.block-left {
+    margin-right: 1rem;
+}
+
+.stat-label {
+    display: inline-block;
+}
+
+.stat-expansion {
+    display: inline-block;
+    width: 50vw;
+    border: 0.3rem solid #000;
+    /*padding: 0.5rem;*/
+    margin-left: 1rem;
+    position: relative;
+    top: 6px;
+}
+
+.stat-expansion .js {
+    background-color: #0be80b;
+    width: 90%;
+    height: 1rem;
+}
+
+.stat-expansion .html {
+    background-color: #0fce0f;
+    width: 98%;
+    height: 1rem;
+}
+
+.stat-expansion .css {
+    background-color: #00ff00;
+    width: 70%;
+    height: 1rem;
+}
+
+.stat-expansion .python {
+    background-color: #fbfb3a;
+    width: 50%;
+    height: 1rem;
+}
+
+hr {
+    background-color: #9f989b;
+    margin: 1.5rem 1rem;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}

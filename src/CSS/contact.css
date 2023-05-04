@@ -1,0 +1,66 @@
+.section-gray {
+    background-color: #f4f4f4;
+    padding: 5rem 6rem;
+}
+
+.container {
+    margin: 0;
+}
+
+.heading {
+    text-align: center;
+}
+
+.form-container {
+    margin: 3rem 5rem;
+}
+
+.form-inp {
+    margin-left: 0.5rem;
+    width: 20rem;
+    height: 2rem;
+    border: 3px solid #b3b3b3;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    font-size: 1.4rem;
+    padding: 0 1rem;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.form-inp:focus {
+    border-color: #000000;
+}
+
+textarea {
+    height: 10rem;
+    width: 70vw;
+    margin-left: 2.5rem;
+    border: 3px solid #b3b3b3;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+    transition: 0.5s;
+    outline: none;
+}
+
+textarea:focus {
+    border-color: #000000;
+}
+
+.submit {
+    background-color: #1abc9c;
+    color: #ffffff;
+    padding: 0.8rem 1.3rem;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit:hover {
+    background-color: #12826b;
+}
